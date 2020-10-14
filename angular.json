@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "praxis"
+    }
+  },
+  "defaultProject": "praxis",
+  "cli": {
+    "analytics": "71c6a97c-0d52-4a83-bea5-7314d8b984eb"
+  }
 }

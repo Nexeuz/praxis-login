@@ -1,0 +1,32 @@
+<div class="login-container">
+  <figure>
+    <img src="assets/WhatsApp%20Image%202020-10-14%20at%202.44.48%20PM.jpeg" alt="fondo nacional del ahorro">
+  </figure>
+  <div class="login-container__form">
+    <div class="login-container__form__fields">
+      <select  praxis-select>
+        <option *ngFor="let document of arrayDocuments">
+          {{ document.value }}
+        </option>
+      </select>
+      <label>
+        <input type="number"
+               placeholder="Número de documento"
+               praxis-input>
+      </label>
+      <label>
+        <input type="password"
+               placeholder="Contraseña FNA"
+               praxis-input>
+      </label>
+      <button praxis-button>
+        Ingresa
+      </button>
+    </div>
+    <div class="login-container__links">
+      <small><a> Conoce al FNA</a></small>
+      <small><a>Tu contraseña aquí</a></small>
+    </div>
+  </div>
+
+</div>
